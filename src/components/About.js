@@ -3,9 +3,9 @@ import { Check } from "lucide-react"
 
 export default function About() {
   return (
-    <div className="lg:py-20 pb-15 lg:pt-0 px-8 bg-gradient-to-b from-black via-pink-900 to-black">
+    <div id="aboutus" className="lg:py-20 pb-15 lg:pt-0 px-8 bg-gradient-to-b from-black via-pink-900 to-black">
         <div className="flex flex-col gap-20 lg:gap-25 max-w-[1440px] mx-auto justify-center items-center">
-            <h2 className="font-bold text-2xl lg:text-3xl uppercase text-gray-300">
+            <h2 className="font-bold text-2xl lg:text-3xl uppercase text-[#cfb781]">
                 About Us
             </h2>
 

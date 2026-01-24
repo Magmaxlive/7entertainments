@@ -1,11 +1,12 @@
 import { engagement } from "@/app/layout"
 import { CalendarDays,Clock9,MapPinCheck,Dot,Music,Armchair,Star,MicVocal,Check  } from 'lucide-react';
 import CountDown from "./CountDown";
+import { Herofeatures } from "@/items/HeroFeatures";
 
 
 export default function HeroSection() {
   return (
-    <div className="relative w-full bg-center bg-cover bg-no-repeat" style={{backgroundImage:"url('/images/herobg.jpg')"}}>
+    <div id="hero" className="relative w-full bg-center bg-cover bg-no-repeat" style={{backgroundImage:"url('/images/herobg.jpg')"}}>
 
       <div className="absolute inset-0 bg-black/85"></div>
       
@@ -75,32 +76,20 @@ export default function HeroSection() {
 
         </div>
 
-        <div className="flex lg:flex-row flex-col gap-4 py-6 justify-between">
-          <div className="flex flex-col  gap-4 items-center backdrop-blur-xl bg-white/10 py-3  px-5 rounded-lg lg:w-[380px] justify-center">
-              <Star size={45} className="text-[#d3bc8d]"/>
-              <div className="flex flex-col gap-1 items-center  text-white">
-              <span className="font-bold text-xl">10000+</span>
-              <span className="font-semibold text-center">Attendies across New Zeland </span>
-            </div>
-          </div>
-
-          <div className="flex flex-col  gap-4 items-center backdrop-blur-xl bg-white/10 py-3  px-5 rounded-lg lg:w-[380px] justify-center">
-              <MicVocal  size={45} className="text-[#d3bc8d]"/>
-              <div className="flex flex-col gap-1 items-center  text-white">
-              <span className="font-bold text-xl">Featuring </span>
-              <span className="font-semibold text-center">One of india's most loved playback singers</span>
-            </div>
-          </div>
-
-          <div className="flex flex-col  gap-4 items-center backdrop-blur-xl bg-white/10 py-3  px-5 rounded-lg lg:w-[380px] justify-center">
-              <Check  size={45} className="text-[#d3bc8d]"/>
-            <div className="flex flex-col gap-1 items-center  text-white">
-              <span className="font-bold text-xl ">Trusted </span>
-              <span className="font-semibold text-center">Auckland event organisers</span>
-            </div>
-          </div>
-
-        </div>
+         <div className="grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 gap-6">
+                        {Herofeatures.map((i,index)=>
+                        (
+                            <div key={index} className="flex flex-col w-full gap-4 items-center backdrop-blur-xl bg-white/5 py-6  px-5 rounded-lg  justify-center">
+                                <div className="flex h-15 w-15 p-2 bg-pink-900 justify-center items-center rounded-full text-[#cfb781]">
+                                        {i.icon}
+                                </div>
+                                
+                                <span className="font-bold text-2xl text-[#cfb781] text-center">{i.title}</span>
+                                <span className="font-semibold text-center">{i.description}</span>
+                            </div>
+                        ))}
+                        
+                    </div>
       </div>
       </div>
     

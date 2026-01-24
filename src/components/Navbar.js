@@ -1,8 +1,8 @@
 'use client';
 import { useEffect, useState } from "react";
-import Link from "next/link";
 import Image from "next/image";
 import {Menu,X} from 'lucide-react';
+import {Link} from 'react-scroll'
 
 export default function Navbar() {
     const [drawerOpen,setDrawerOpen] = useState(false)
@@ -23,8 +23,8 @@ export default function Navbar() {
                     </div>
 
                     <ul className="hidden lg:flex  space-x-12">
-                        <li><Link href="#" className='cursor-pointer text-[1.1rem] transition-all duration-300 uppercase font-semibold hover:text-white hover:underline underline-offset-8'>Home</Link></li>
-                        <li><Link href="#"  className='cursor-pointer text-[1.1rem] transition-all duration-300 uppercase font-semibold hover:text-white hover:underline underline-offset-8'>about us</Link></li>
+                        <li><Link to='hero' offset={-100} smooth={true} duration={500} className='cursor-pointer text-[1.1rem] transition-all duration-300 uppercase font-semibold hover:text-white hover:underline underline-offset-8'>Home</Link></li>
+                        <li><Link to='aboutus' offset={-200} smooth={true} duration={500}  className='cursor-pointer text-[1.1rem] transition-all duration-300 uppercase font-semibold hover:text-white hover:underline underline-offset-8'>about us</Link></li>
                         <li><Link href="#"  className='cursor-pointer text-[1.1rem] transition-all duration-300 uppercase font-semibold hover:text-white hover:underline underline-offset-8'>Services</Link></li>
                         <li><Link href="#"  className='cursor-pointer text-[1.1rem] transition-all duration-300 uppercase font-semibold hover:text-white hover:underline underline-offset-8'>events</Link></li>
                         <li><Link href="#"  className='cursor-pointer text-[1.1rem] transition-all duration-300 uppercase font-semibold hover:text-white hover:underline underline-offset-8'>blog</Link></li>
