@@ -44,8 +44,8 @@ export default function Navbar() {
                     {drawerOpen &&
                         <div className="fixed z-20 w-full bg-gradient-to-l from-pink-900 to-black right-0 top-0 p-12 flex flex-col justify-start items-center lg:hidden gap-3">
                              <ul className="flex flex-col gap-3">
-                                <li><Link href="#" className='cursor-pointer text-[1rem] transition-all duration-300 uppercase font-semibold hover:text-white hover:underline underline-offset-8'>Home</Link></li>
-                                <li><Link href="#"  className='cursor-pointer text-[1rem] transition-all duration-300 uppercase font-semibold hover:text-white hover:underline underline-offset-8'>about us</Link></li>
+                                <li><Link to='hero' offset={-100} smooth={true} duration={500} className='cursor-pointer text-[1rem] transition-all duration-300 uppercase font-semibold hover:text-white hover:underline underline-offset-8'>Home</Link></li>
+                                <li><Link to='aboutus' offset={-200} smooth={true} duration={500}  className='cursor-pointer text-[1rem] transition-all duration-300 uppercase font-semibold hover:text-white hover:underline underline-offset-8'>about us</Link></li>
                                 <li><Link href="#"  className='cursor-pointer text-[1rem] transition-all duration-300 uppercase font-semibold hover:text-white hover:underline underline-offset-8'>Services</Link></li>
                                 <li><Link href="#"  className='cursor-pointer text-[1rem] transition-all duration-300 uppercase font-semibold hover:text-white hover:underline underline-offset-8'>events</Link></li>
                                 <li><Link href="#"  className='cursor-pointer text-[1rem] transition-all duration-300 uppercase font-semibold hover:text-white hover:underline underline-offset-8'>blog</Link></li>

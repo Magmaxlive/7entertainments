@@ -56,7 +56,7 @@ export default function HeroSection() {
           {/* right column */}
 
           <div className="flex flex-col justify-end lg:w-[380px] py-4 w-full min-h-[600px] overflow-hidden bg-white shadow-lg rounded-xl transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl lg:justify-self-end justify-self-center bg-cover bg-center gap-2" style={{backgroundImage:"url('/images/Naresh Iyer.png')"}}>
-            <div className="flex flex-col items-center justify-center gap-1 py-3 backdrop-blur-xl bg-white/2">
+            <div className="flex flex-col items-center justify-center gap-1 py-3 backdrop-blur-xl bg-white/1">
                 <h5 className="text-2xl font-semibold text-[#d3bc8d] flex gap-3 items-center"><Music />Valentine's Day Special</h5>
                 <h6 className="font-semibold tracking-wider text-white">Naresh Iyer Live in Auckland</h6>
                 <p className="flex gap-3 text-sm items-center tracking-wider  text-white"><Armchair />Limited seats</p>
@@ -79,7 +79,7 @@ export default function HeroSection() {
          <div className="grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 gap-6">
                         {Herofeatures.map((i,index)=>
                         (
-                            <div key={index} className="flex flex-col w-full gap-4 items-center backdrop-blur-xl bg-white/5 py-6  px-5 rounded-lg  justify-center">
+                            <div key={index} className="flex flex-col w-full gap-4 items-center backdrop-blur-xl bg-white/5 py-6  px-5 rounded-lg  justify-center transition-transform duration-300 ease-out hover:scale-105">
                                 <div className="flex h-15 w-15 p-2 bg-pink-900 justify-center items-center rounded-full text-[#cfb781]">
                                         {i.icon}
                                 </div>
