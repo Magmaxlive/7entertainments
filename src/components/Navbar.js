@@ -14,7 +14,8 @@ export default function Navbar() {
 
   return (
     <>
-    <nav className={`sticky top-0 z-50 py-3 backdrop-blur-lg bg-[#213a46]`}>
+    <nav className={`sticky top-0 z-50`}>
+            <div className="py-6 backdrop-blur-lg bg-gradient-to-l from-pink-900 to-black text-[#d3bc8d]">
             <div className="px-4 mx-auto container  text-sm">
                 <div className="flex justify-between items-center">
                     <div className="flex items-center flex-shrik-0">
@@ -22,12 +23,12 @@ export default function Navbar() {
                     </div>
 
                     <ul className="hidden lg:flex  space-x-12">
-                        <li><Link href="#" className='cursor-pointer text-[1.1rem] transition-all duration-300 uppercase font-semibold hover:text-[#d3bc8d] hover:underline underline-offset-8'>Home</Link></li>
-                        <li><Link href="#"  className='cursor-pointer text-[1.1rem] transition-all duration-300 uppercase font-semibold hover:text-[#d3bc8d] hover:underline underline-offset-8'>about us</Link></li>
-                        <li><Link href="#"  className='cursor-pointer text-[1.1rem] transition-all duration-300 uppercase font-semibold hover:text-[#d3bc8d] hover:underline underline-offset-8'>Services</Link></li>
-                        <li><Link href="#"  className='cursor-pointer text-[1.1rem] transition-all duration-300 uppercase font-semibold hover:text-[#d3bc8d] hover:underline underline-offset-8'>events</Link></li>
-                        <li><Link href="#"  className='cursor-pointer text-[1.1rem] transition-all duration-300 uppercase font-semibold hover:text-[#d3bc8d] hover:underline underline-offset-8'>blog</Link></li>
-                        <li><Link href="#"  className='cursor-pointer text-[1.1rem] transition-all duration-300 uppercase font-semibold hover:text-[#d3bc8d] hover:underline underline-offset-8'>contact</Link></li>
+                        <li><Link href="#" className='cursor-pointer text-[1.1rem] transition-all duration-300 uppercase font-semibold hover:text-white hover:underline underline-offset-8'>Home</Link></li>
+                        <li><Link href="#"  className='cursor-pointer text-[1.1rem] transition-all duration-300 uppercase font-semibold hover:text-white hover:underline underline-offset-8'>about us</Link></li>
+                        <li><Link href="#"  className='cursor-pointer text-[1.1rem] transition-all duration-300 uppercase font-semibold hover:text-white hover:underline underline-offset-8'>Services</Link></li>
+                        <li><Link href="#"  className='cursor-pointer text-[1.1rem] transition-all duration-300 uppercase font-semibold hover:text-white hover:underline underline-offset-8'>events</Link></li>
+                        <li><Link href="#"  className='cursor-pointer text-[1.1rem] transition-all duration-300 uppercase font-semibold hover:text-white hover:underline underline-offset-8'>blog</Link></li>
+                        <li><Link href="#"  className='cursor-pointer text-[1.1rem] transition-all duration-300 uppercase font-semibold hover:text-white hover:underline underline-offset-8'>contact</Link></li>
                     </ul>
 
                     <div className="hidden lg:flex justify-center items-center">
@@ -41,21 +42,54 @@ export default function Navbar() {
                     </div>
 
                     {drawerOpen &&
-                        <div className="fixed z-20 w-full bg-[#0a1a1f] right-0 top-0 p-12 flex flex-col justify-start items-center lg:hidden gap-3">
+                        <div className="fixed z-20 w-full bg-gradient-to-l from-pink-900 to-black right-0 top-0 p-12 flex flex-col justify-start items-center lg:hidden gap-3">
                              <ul className="flex flex-col gap-3">
-                                <li><Link href="#" className='cursor-pointer text-[1rem] transition-all duration-300 uppercase font-semibold hover:text-[#d3bc8d] hover:underline underline-offset-8'>Home</Link></li>
-                                <li><Link href="#"  className='cursor-pointer text-[1rem] transition-all duration-300 uppercase font-semibold hover:text-[#d3bc8d] hover:underline underline-offset-8'>about us</Link></li>
-                                <li><Link href="#"  className='cursor-pointer text-[1rem] transition-all duration-300 uppercase font-semibold hover:text-[#d3bc8d] hover:underline underline-offset-8'>Services</Link></li>
-                                <li><Link href="#"  className='cursor-pointer text-[1rem] transition-all duration-300 uppercase font-semibold hover:text-[#d3bc8d] hover:underline underline-offset-8'>events</Link></li>
-                                <li><Link href="#"  className='cursor-pointer text-[1rem] transition-all duration-300 uppercase font-semibold hover:text-[#d3bc8d] hover:underline underline-offset-8'>blog</Link></li>
-                                <li><Link href="#"  className='cursor-pointer text-[1rem] transition-all duration-300 uppercase font-semibold hover:text-[#d3bc8d] hover:underline underline-offset-8'>contact</Link></li>
+                                <li><Link href="#" className='cursor-pointer text-[1rem] transition-all duration-300 uppercase font-semibold hover:text-white hover:underline underline-offset-8'>Home</Link></li>
+                                <li><Link href="#"  className='cursor-pointer text-[1rem] transition-all duration-300 uppercase font-semibold hover:text-white hover:underline underline-offset-8'>about us</Link></li>
+                                <li><Link href="#"  className='cursor-pointer text-[1rem] transition-all duration-300 uppercase font-semibold hover:text-white hover:underline underline-offset-8'>Services</Link></li>
+                                <li><Link href="#"  className='cursor-pointer text-[1rem] transition-all duration-300 uppercase font-semibold hover:text-white hover:underline underline-offset-8'>events</Link></li>
+                                <li><Link href="#"  className='cursor-pointer text-[1rem] transition-all duration-300 uppercase font-semibold hover:text-white hover:underline underline-offset-8'>blog</Link></li>
+                                <li><Link href="#"  className='cursor-pointer text-[1rem] transition-all duration-300 uppercase font-semibold hover:text-white hover:underline underline-offset-8'>contact</Link></li>
                             </ul>
                         </div>
                     }
                 </div>
             </div>
+            </div>
+            {!drawerOpen && 
+                <>
+
+                    <div className="text-center py-4 backdrop-blur-lg overflow-hidden whitespace-nowrap bg-gray-900 text-xl tracking-widest text-[#d3bc8d] font-semibold">
+                    <div className="inline-flex animate-marquee" style={{ animation: "marquee 18s linear infinite",}}>
+                        <span className="font-bold uppercase mr-4 text-pink-400">
+                        Limited Tickets Remaining!
+                        </span>
+                        <span className="mr-8">
+                        More than half of $99 & $69 tickets already sold
+                        </span>
+
+                        
+                        <span className="font-bold uppercase mr-4 text-pink-400">
+                        Limited Tickets Remaining!
+                        </span>
+                        <span className="mr-8">
+                        More than half of $99 & $69 tickets already sold
+                        </span>
+
+                        <span className="font-bold uppercase mr-4 text-pink-400">
+                        Limited Tickets Remaining!
+                        </span>
+                        <span className="mr-8">
+                        More than half of $99 & $69 tickets already sold
+                        </span>
+                    </div>
+                </div>
+                </>
+            }
+            
+
         </nav>
-      
+            
     </>
   )
 }
