@@ -18,13 +18,13 @@ export default function HeroSection() {
               <h4 className="text-[#cfb781] tracking-wide uppercase font-semibold">
                   Seven Entertainment presents
               </h4>
-              <h1 className="lg:text-5xl text-3xl font-bold">
+              <h1 className="lg:text-5xl text-3xl font-bold text-white">
                 Naresh Iyer Live in Concert
               </h1>
               <h2 className={`${engagement.className} font-bold tracking-widest lg:text-6xl text-5xl text-[#d3bc8d]`}>Raagam 2026</h2>
               <div className="flex flex-col gap-3">
-                  <h6 className="lg:text-lg text-sm  font-semibold mt-6 tracking-wider">A magical Valentine's Day Musical evening in Auckland</h6>
-                  <p className="lg:text-base text-xs font-normal tracking-wider flex">Live Orchestra <Dot/> Romantic Melodies <Dot/> One-night-Only Concert</p>
+                  <h6 className="lg:text-lg text-sm  font-semibold mt-6 tracking-wider text-white">A magical Valentine's Day Musical evening in Auckland</h6>
+                  <p className="lg:text-base text-xs font-normal tracking-wider text-white flex">Live Orchestra <Dot/> Romantic Melodies <Dot/> One-night-Only Concert</p>
               </div>
 
               <hr className="my-3 opacity-25" />
@@ -57,8 +57,8 @@ export default function HeroSection() {
           <div className="flex flex-col justify-end lg:w-[380px] py-4 w-full min-h-[600px] overflow-hidden bg-white shadow-lg rounded-xl transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl lg:justify-self-end justify-self-center bg-cover bg-center gap-2" style={{backgroundImage:"url('/images/Naresh Iyer.png')"}}>
             <div className="flex flex-col items-center justify-center gap-1 py-3 backdrop-blur-xl bg-white/2">
                 <h5 className="text-2xl font-semibold text-[#d3bc8d] flex gap-3 items-center"><Music />Valentine's Day Special</h5>
-                <h6 className="font-semibold tracking-wider">Naresh Iyer Live in Auckland</h6>
-                <p className="flex gap-3 text-sm items-center tracking-wider"><Armchair />Limited seats</p>
+                <h6 className="font-semibold tracking-wider text-white">Naresh Iyer Live in Auckland</h6>
+                <p className="flex gap-3 text-sm items-center tracking-wider  text-white"><Armchair />Limited seats</p>
             </div>
 
             <div className="flex flex-col items-center justify-center gap-1 py-4 ">
@@ -78,7 +78,7 @@ export default function HeroSection() {
         <div className="flex lg:flex-row flex-col gap-4 py-6 justify-between">
           <div className="flex gap-4 items-center backdrop-blur-xl bg-white/10 py-6 lg:px-10 px-5 rounded-lg lg:w-[380px] justify-center">
               <Star size={45} className="text-[#d3bc8d]"/>
-              <div className="flex flex-col gap-1 items-center">
+              <div className="flex flex-col gap-1 items-center  text-white">
               <span className="font-bold text-xl">10000+</span>
               <span className="font-semibold text-center">Attendies across New Zeland </span>
             </div>
@@ -86,7 +86,7 @@ export default function HeroSection() {
 
           <div className="flex gap-4 items-center backdrop-blur-xl bg-white/10 py-6 lg:px-10 px-5 rounded-lg lg:w-[380px] justify-center">
               <MicVocal  size={45} className="text-[#d3bc8d]"/>
-              <div className="flex flex-col gap-1 items-center">
+              <div className="flex flex-col gap-1 items-center  text-white">
               <span className="font-bold text-xl">Featuring </span>
               <span className="font-semibold text-center">One of india's most loved playback singers</span>
             </div>
@@ -95,7 +95,7 @@ export default function HeroSection() {
           <div className="flex gap-4 items-center backdrop-blur-xl bg-white/10 py-6 lg:px-10 px-5 rounded-lg lg:w-[380px] justify-center">
               <Check  size={45} className="text-[#d3bc8d]"/>
               <div className="flex flex-col gap-1 items-center">
-              <span className="font-bold text-xl">Trusted </span>
+              <span className="font-bold text-xl  text-white">Trusted </span>
               <span className="font-semibold text-center">Auckland event organisers</span>
             </div>
           </div>
