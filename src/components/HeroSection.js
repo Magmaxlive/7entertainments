@@ -7,7 +7,7 @@ export default function HeroSection() {
   return (
     <div className="relative w-full bg-center bg-cover bg-no-repeat" style={{backgroundImage:"url('/images/herobg.jpg')"}}>
 
-      <div className="absolute inset-0 bg-black/80"></div>
+      <div className="absolute inset-0 bg-black/85"></div>
       
       <div className="relative z-10 max-w-[1440px] mx-auto flex flex-col py-26 px-8 gap-10">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 ">
@@ -44,7 +44,7 @@ export default function HeroSection() {
                   </div>
 
                   <div className="mt-8 flex flex-col text-center gap-3">
-                    <a href="https://www.eventfinda.co.nz/2026/naresh-iyers-valentine-musical-concert/auckland/manukau-city/tickets" className="rounded-sm lg:w-fit py-3 font-bold px-10  bg-[#d3bc8d] text-[#213a46] uppercase">book tickets now</a>
+                    <a target="_blank" href="https://www.eventfinda.co.nz/2026/naresh-iyers-valentine-musical-concert/auckland/manukau-city/tickets" className="rounded-sm lg:w-fit py-3 font-bold px-10  bg-[#d3bc8d] text-[#213a46] uppercase">book tickets now</a>
                     <h6 className="lg:text-sm text-xs flex tracking-wide items-center lg:justify-start justify-center">Limited seats <Dot/> Instant confirmation</h6>
                   </div>
               </div>

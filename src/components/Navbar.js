@@ -32,7 +32,7 @@ export default function Navbar() {
                     </ul>
 
                     <div className="hidden lg:flex justify-center items-center">
-                        <Link href="https://www.eventfinda.co.nz/2026/naresh-iyers-valentine-musical-concert/auckland/manukau-city/tickets" className="flex items-center gap-2 border border-[#d3bc8d] text-[#d3bc8d] rounded-sm px-5 py-3  font-bold uppercase text-[1rem] hover:bg-[#d3bc8d] hover:border-[#0a1a1f] hover:text-[#0a1a1f]">Book Tickets</Link>
+                        <Link target="_blank" href="https://www.eventfinda.co.nz/2026/naresh-iyers-valentine-musical-concert/auckland/manukau-city/tickets" className="flex items-center gap-2 border border-[#d3bc8d] text-[#d3bc8d] rounded-sm px-5 py-3  font-bold uppercase text-[1rem] hover:bg-[#d3bc8d] hover:border-[#0a1a1f] hover:text-[#0a1a1f]">Book Tickets</Link>
                     </div>
 
                     <div className="lg:hidden flex flex-col justify-end">
@@ -59,7 +59,7 @@ export default function Navbar() {
             {!drawerOpen && 
                 <>
 
-                    <div className="text-center py-4 backdrop-blur-lg overflow-hidden whitespace-nowrap bg-gray-900 text-xl tracking-widest text-[#d3bc8d] font-semibold">
+                    <div className="text-center py-4 backdrop-blur-lg overflow-hidden whitespace-nowrap bg-gray-900 text-lg  lg:text-xl tracking-widest text-[#d3bc8d] font-semibold">
                     <div className="inline-flex animate-marquee" style={{ animation: "marquee 18s linear infinite",}}>
                         <span className="font-bold uppercase mr-4 text-pink-400">
                         Limited Tickets Remaining!
