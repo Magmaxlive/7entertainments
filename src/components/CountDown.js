@@ -32,7 +32,7 @@ export default function CountDown() {
   }, []);
 
   return (
-    <div className="flex gap-6 text-center">
+    <div className="flex gap-6 text-center  text-white">
       <TimeBox label="Days" value={timeLeft.days} />
       <TimeBox label="Hours" value={timeLeft.hours} />
       <TimeBox label="Minutes" value={timeLeft.minutes} />
