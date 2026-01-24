@@ -94,8 +94,8 @@ export default function HeroSection() {
 
           <div className="flex gap-4 items-center backdrop-blur-xl bg-white/10 py-6 lg:px-10 px-5 rounded-lg lg:w-[380px] justify-center">
               <Check  size={45} className="text-[#d3bc8d]"/>
-              <div className="flex flex-col gap-1 items-center">
-              <span className="font-bold text-xl  text-white">Trusted </span>
+              <div className="flex flex-col gap-1 items-center  text-white">
+              <span className="font-bold text-xl ">Trusted </span>
               <span className="font-semibold text-center">Auckland event organisers</span>
             </div>
           </div>
