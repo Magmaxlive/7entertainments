@@ -47,7 +47,7 @@ export default function Footer() {
                         {contactus.map((i,index)=>(
                             <div key={index} className="flex gap-4">
                                 {i.icon}
-                                <h5>{i.content}</h5>
+                                <a href={i.link} target="_blank">{i.content}</a>
                             </div>
                         ))}
                     </div>

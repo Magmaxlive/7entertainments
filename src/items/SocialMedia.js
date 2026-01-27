@@ -33,18 +33,21 @@ export const SocialLinks = [
 export const contactus = [
     {
         content : '+64 9 123 4567',
-        icon : <FaPhoneAlt size={25}/>
+        icon : <FaPhoneAlt size={25}/>,
+        link: 'tel:+6491234567'
     },
 
     {
         content : '+64 22 122 1154',
-        icon : <IoLogoWhatsapp size={25}/>
+        icon : <IoLogoWhatsapp size={25}/>,
+        link: 'https://wa.me/6491234567'
     },
 
 
     {
         content : 'events@7entertainment.co.nz',
-        icon : <FaEnvelope size={25}/>
+        icon : <FaEnvelope size={25}/>,
+        link :'mailto:events@7entertainment.co.nz'
     },
 
     {
@@ -52,7 +55,8 @@ export const contactus = [
             153 Stoddard Road, Wesley,<br />
             Auckland 1041, New Zealand
             </>,
-        icon : <FaLocationDot size={25}/>
+        icon : <FaLocationDot size={25}/>,
+        link:'https://www.google.com/maps/dir//360VR+STUDIO+LTD,+1A%2F153+Stoddard+Road,+Wesley,+Auckland+1041,+New+Zealand/@11.3344512,75.759616,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x6d0d41490462baf5:0x1dd1c99afd2a8e30!2m2!1d174.7265678!2d-36.9030576?entry=ttu&g_ep=EgoyMDI2MDEyMS4wIKXMDSoKLDEwMDc5MjA3M0gBUAM%3D'
     },
     
     
