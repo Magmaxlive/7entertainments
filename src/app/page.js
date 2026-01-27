@@ -1,5 +1,6 @@
 import About from "@/components/About";
 import FeatureSection from "@/components/FeatureSection";
+import Footer from "@/components/Footer";
 import HeroSection from "@/components/HeroSection";
 import ProductionSection from "@/components/ProductionSection";
 import Raagam from "@/components/Raagam";
@@ -19,6 +20,7 @@ export default function Home() {
       <Sponsors/>
       <Testimonials/>
       <FeatureSection/>
+      <Footer/>
     </>
   );
 }

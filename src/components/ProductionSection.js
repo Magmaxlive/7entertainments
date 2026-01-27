@@ -3,12 +3,12 @@ import { products } from "@/items/ProductionItems"
 
 export default function ProductionSection() {
   return (
-    <div className="relative w-full bg-cover bg-no-repeat" style={{backgroundImage:"url('/images/probg.jpg')"}}>
+    <div id="services" className="relative w-full bg-cover bg-no-repeat" style={{backgroundImage:"url('/images/probg.jpg')"}}>
         <div className="absolute inset-0 bg-black/85"></div>
       <div className="relative max-w-[1440px] mx-auto flex flex-col py-26 px-8 gap-20 justify-center items-center">
             <div className="flex flex-col gap-6 text-center  text-gray-300">
                 <h2 className="font-bold text-2xl lg:text-3xl uppercase text-[#cfb781]">
-                OUR PREMIUM PRODUCTIONS
+                OUR PREMIUM services
                 </h2>
                 <h5 className="tracking-wider text-balanced">
                     We transform ideas into extraordinary live experiences by combining iconic talent, cutting-edge technology, and innovative concepts.

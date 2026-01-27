@@ -41,7 +41,7 @@ export default function HeroSection() {
                   </div>
 
                   <div className="flex gap-2 items-center  text-[#e2e0db]">
-                          <MapPinCheck /> <p className="font-semibold tracking-wider">7A Alaunia Place, Lynfield, Auckland 1042</p>
+                          <MapPinCheck /> <p className="font-semibold tracking-wider">Sir Woolf Fisher Arena Due Drop Events Centre,<br/> 770 Great South Rd, Manukau City</p>
                   </div>
 
                   <div className="mt-8 flex flex-col text-center gap-3">

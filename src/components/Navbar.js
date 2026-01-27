@@ -25,14 +25,13 @@ export default function Navbar() {
                     <ul className="hidden lg:flex  space-x-12">
                         <li><Link to='hero' offset={-100} smooth={true} duration={500} className='cursor-pointer text-[1.1rem] transition-all duration-300 uppercase font-semibold hover:text-white hover:underline underline-offset-8'>Home</Link></li>
                         <li><Link to='aboutus' offset={-200} smooth={true} duration={500}  className='cursor-pointer text-[1.1rem] transition-all duration-300 uppercase font-semibold hover:text-white hover:underline underline-offset-8'>about us</Link></li>
-                        <li><Link href="#"  className='cursor-pointer text-[1.1rem] transition-all duration-300 uppercase font-semibold hover:text-white hover:underline underline-offset-8'>Services</Link></li>
-                        <li><Link href="#"  className='cursor-pointer text-[1.1rem] transition-all duration-300 uppercase font-semibold hover:text-white hover:underline underline-offset-8'>events</Link></li>
-                        <li><Link href="#"  className='cursor-pointer text-[1.1rem] transition-all duration-300 uppercase font-semibold hover:text-white hover:underline underline-offset-8'>blog</Link></li>
-                        <li><Link href="#"  className='cursor-pointer text-[1.1rem] transition-all duration-300 uppercase font-semibold hover:text-white hover:underline underline-offset-8'>contact</Link></li>
+                        <li><Link to='services' offset={-200} smooth={true}  className='cursor-pointer text-[1.1rem] transition-all duration-300 uppercase font-semibold hover:text-white hover:underline underline-offset-8'>Services</Link></li>
+                        <li><Link to="events"  offset={-200} smooth={true} className='cursor-pointer text-[1.1rem] transition-all duration-300 uppercase font-semibold hover:text-white hover:underline underline-offset-8'>events</Link></li>
+                        <li><Link to="contact" offset={-200} smooth={true}  className='cursor-pointer text-[1.1rem] transition-all duration-300 uppercase font-semibold hover:text-white hover:underline underline-offset-8'>contact</Link></li>
                     </ul>
 
                     <div className="hidden lg:flex justify-center items-center">
-                        <Link target="_blank" href="https://www.eventfinda.co.nz/2026/naresh-iyers-valentine-musical-concert/auckland/manukau-city/tickets" className="flex items-center gap-2 border border-[#d3bc8d] text-[#d3bc8d] rounded-sm px-5 py-3  font-bold uppercase text-[1rem] hover:bg-[#d3bc8d] hover:border-[#0a1a1f] hover:text-[#0a1a1f]">Book Tickets</Link>
+                        <a target="_blank" href="https://www.eventfinda.co.nz/2026/naresh-iyers-valentine-musical-concert/auckland/manukau-city/tickets" className="flex items-center gap-2 border border-[#d3bc8d] text-[#d3bc8d] rounded-sm px-5 py-3  font-bold uppercase text-[1rem] hover:bg-[#d3bc8d] hover:border-[#0a1a1f] hover:text-[#0a1a1f]">Book Tickets</a>
                     </div>
 
                     <div className="lg:hidden flex flex-col justify-end">
@@ -46,10 +45,9 @@ export default function Navbar() {
                              <ul className="flex flex-col gap-3">
                                 <li><Link to='hero' offset={-100} smooth={true} duration={500} className='cursor-pointer text-[1rem] transition-all duration-300 uppercase font-semibold hover:text-white hover:underline underline-offset-8'>Home</Link></li>
                                 <li><Link to='aboutus' offset={-200} smooth={true} duration={500}  className='cursor-pointer text-[1rem] transition-all duration-300 uppercase font-semibold hover:text-white hover:underline underline-offset-8'>about us</Link></li>
-                                <li><Link href="#"  className='cursor-pointer text-[1rem] transition-all duration-300 uppercase font-semibold hover:text-white hover:underline underline-offset-8'>Services</Link></li>
-                                <li><Link href="#"  className='cursor-pointer text-[1rem] transition-all duration-300 uppercase font-semibold hover:text-white hover:underline underline-offset-8'>events</Link></li>
-                                <li><Link href="#"  className='cursor-pointer text-[1rem] transition-all duration-300 uppercase font-semibold hover:text-white hover:underline underline-offset-8'>blog</Link></li>
-                                <li><Link href="#"  className='cursor-pointer text-[1rem] transition-all duration-300 uppercase font-semibold hover:text-white hover:underline underline-offset-8'>contact</Link></li>
+                                <li><Link to='services' offset={-200} smooth={true} className='cursor-pointer text-[1rem] transition-all duration-300 uppercase font-semibold hover:text-white hover:underline underline-offset-8'>Services</Link></li>
+                                <li><Link to="events" offset={-200} smooth={true} className='cursor-pointer text-[1rem] transition-all duration-300 uppercase font-semibold hover:text-white hover:underline underline-offset-8'>events</Link></li>
+                                <li><Link to="contact" offset={-200} smooth={true} className='cursor-pointer text-[1rem] transition-all duration-300 uppercase font-semibold hover:text-white hover:underline underline-offset-8'>contact</Link></li>
                             </ul>
                         </div>
                     }
