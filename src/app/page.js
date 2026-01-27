@@ -2,6 +2,7 @@ import About from "@/components/About";
 import HeroSection from "@/components/HeroSection";
 import ProductionSection from "@/components/ProductionSection";
 import Raagam from "@/components/Raagam";
+import Sponsors from "@/components/Sponsors";
 import WhyChoose from "@/components/WhyChoose";
 import Image from "next/image";
 
@@ -13,6 +14,7 @@ export default function Home() {
       <ProductionSection/>
       <WhyChoose/>
       <Raagam/>
+      <Sponsors/>
     </>
   );
 }

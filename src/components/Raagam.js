@@ -57,7 +57,7 @@ export default function Raagam() {
                                 </div>
 
                                 <div className="flex flex-col gap-8 mt-3">
-                                    <h2 className="font-bold text-2xl text-[#cfb781]">Featuring</h2>
+                                    <h2 className="font-bold text-2xl text-[#cfb781] uppercase">Featuring</h2>
 
                                         <div className="grid grid-cols-1 lg:grid-cols-4 md:grid-cols-2 gap-6">
                                                 {singers.map((i,index)=>
@@ -74,7 +74,7 @@ export default function Raagam() {
                                                         
                                                         
                                                         <span className="font-bold text-2xl text-[#cfb781] text-center">{i.name}</span>
-                                                        <span className="font-semibold text-sm text-pretty">{i.description}</span>
+                                                        <span className="font-thin tracking-wide text-sm text-pretty">{i.description}</span>
                                                     </div>
                                                 ))}
                                                 
