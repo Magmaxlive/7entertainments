@@ -1,4 +1,5 @@
 import About from "@/components/About";
+import FeatureSection from "@/components/FeatureSection";
 import HeroSection from "@/components/HeroSection";
 import ProductionSection from "@/components/ProductionSection";
 import Raagam from "@/components/Raagam";
@@ -17,6 +18,7 @@ export default function Home() {
       <Raagam/>
       <Sponsors/>
       <Testimonials/>
+      <FeatureSection/>
     </>
   );
 }
