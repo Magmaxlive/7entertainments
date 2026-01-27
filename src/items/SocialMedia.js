@@ -17,12 +17,12 @@ export const SocialLinks = [
     },
 
     {
-        link : 'https://tr.ee/R67XqQGUNs',
+        link : 'https://www.linkedin.com/company/sevenentertainments',
         icon : <FaLinkedin size={25}/>
     },
 
     {
-        link : 'https://tr.ee/2jkEUlPCvG',
+        link : 'https://www.tiktok.com/@seven_entertainment_',
         icon : <FaTiktok size={25}/>
     },
     
