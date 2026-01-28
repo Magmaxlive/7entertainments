@@ -56,7 +56,7 @@ export default function Sponsors() {
                 
                 <div className="flex flex-col gap-4">
                     <h1 className="text-center">Supporting Sponsors</h1>
-                    <div className="grid grid-cols-1 lg:grid-cols-4 md:grid-cols-2 gap-6">
+                    <div className="grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 gap-6 ">
                                 {other.map((i,index)=>
                                 (
                                     <div key={index} className="lg:min-w-[200px] min-w-[280px] flex flex-col w-full gap-4 items-center backdrop-blur-xl bg-white/10 py-6  px-5 rounded-lg  justify-center transition-transform duration-300 ease-out hover:scale-105">
@@ -65,7 +65,7 @@ export default function Sponsors() {
                                             src={i.image}
                                             fill
                                             alt={`${i.Name} logo`}
-                                            className="object-contain"
+                                                className={i.class? i.class : 'object-contain'}
                                             />
                                         </div>
                                     </div>

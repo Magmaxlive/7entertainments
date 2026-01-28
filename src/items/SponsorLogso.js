@@ -16,6 +16,21 @@ export const other = [
         image:'/images/5.png'
     },
 
+    {
+        Name : 'Galaxy pizza',
+        image:'/images/galaxy.png',
+        class:'object-contain'
+    },
+
+
+    {
+        Name : 'Nidhi',
+        image:'/images/nidhi__logo.png',
+        class:'object-contain'
+        
+    },
+
+
 
     {
         Name : 'Mercury Prints',
