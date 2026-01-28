@@ -32,16 +32,16 @@ export default function HeroSection() {
 
               <div className="flex flex-col gap-4 text-lg">
                   <div className="flex-col flex lg:flex-row gap-4 lg:gap-6">
-                      <div className="flex gap-2 items-center  text-[#d3bc8d]">
+                      <div className="flex gap-3 items-center  text-[#d3bc8d]">
                           <CalendarDays /> <p className="font-semibold tracking-wider">Friday, 14 february 2026</p>
                       </div>
-                      <div className="flex gap-2 items-center  text-[#d3bc8d]">
+                      <div className="flex gap-3 items-center  text-[#d3bc8d]">
                           <Clock9 /> <p className="font-semibold tracking-wider uppercase">7:00 pm - 10:00 pm</p>
                       </div>
                   </div>
 
-                  <div className="flex gap-2 items-center  text-[#e2e0db]">
-                          <MapPinCheck /> <p className="font-semibold tracking-wider">Sir Woolf Fisher Arena Due Drop Events Centre,<br/> 770 Great South Rd, Manukau City</p>
+                  <div className="flex gap-3 items-start  text-[#e2e0db]">
+                          <MapPinCheck /> <p className="font-semibold tracking-wider">Due Drop Events Centre, Manukau City, Auckland</p>
                   </div>
 
                   <div className="mt-8 flex flex-col text-center gap-3">

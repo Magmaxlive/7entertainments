@@ -9,26 +9,26 @@ export default function Raagam() {
      <div id="events" className="relative w-full bg-cover bg-no-repeat" style={{backgroundImage:"url('/images/probg.jpg')"}}>
             <div className="absolute inset-0 bg-black/85"></div>
                 <div className="relative max-w-[1440px] mx-auto flex flex-col py-26 px-8 gap-20 justify-center items-center">
-                        <div className="flex flex-col gap-14 text-center  text-gray-300">
+                        <div className="flex flex-col gap-10 text-center  text-gray-300">
                             
-                            <div className="flex lg:flex-row flex-col w-full gap-4 items-center backdrop-blur-xl bg-white/10 py-6  px-8 rounded-lg justify-center lg:justify-between ">
-                                <div className="flex flex-col gap-4 items-center lg:items-start text-white">
+                            <div className="flex lg:flex-row flex-col w-full gap-4 items-center backdrop-blur-xl bg-white/10 py-6  px-8 rounded-lg justify-center">
+                                <div className="flex flex-col gap-6 items-center text-white">
                                     <div className="rounded-md py-2 w-fit px-4 text-sm font-semibold uppercase bg-[#cfb781] text-[#213a46]">
                                         Proudly Presented By
                                     </div>
-                                    <div className="flex flex-col gap-2 lg:items-start">
-                                        <h2 className="text-2xl lg:text-3xl font-bold tracking-wide">Kripa Financial Solutions</h2>
+                                    <div className="flex flex-col gap-3 items-center justify-center">
+                                        <Image src="/images/kripalogo.png" height={100} width={150} alt="kripalogo" />
                                         <h4 className="text-white/70 lg:text-lg text-sm">Empowering cultural connection through strategic partnership</h4>
                                     </div>
                                 </div>
 
-                                <div>
-                                        <Image src="/images/kripalogo.png" height={100} width={150} alt="kripalogo" />
-                                </div>
+                            
 
                             </div>
                             <div className="flex flex-col gap-6 ">
-                                <div className="flex flex-col gap-2">
+                                <div className="flex flex-col gap-2 justify-center items-center">
+                                        <Image src="/images/raagam.png" height={100} width={380} alt="kripalogo" className="h-full lg:w-[25%] w-[75%]" />
+
                                     <h2 className="font-bold text-3xl lg:text-4xl uppercase text-[#cfb781]">
                                     RAAGAM 2026
                                     </h2>

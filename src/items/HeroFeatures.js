@@ -3,7 +3,7 @@ import { Star,MicVocal,Check  } from 'lucide-react';
 export const Herofeatures = [
     {
         title : '10000+',
-        description : 'Attendies accross New Zeland',
+        description : 'Attendies accross New Zealand',
         icon : <Star />
     },
     {

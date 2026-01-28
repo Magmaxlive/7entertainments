@@ -2,7 +2,7 @@
 
 :root {
   --background: #ffffff;
-  --foreground: #171717;
+  --foreground: #ffffff;
 }
 
 @theme inline {
@@ -24,7 +24,6 @@ body {
   color: var(--foreground);
   overflow-x:hidden;
   font-family: var(--font-archivo), sans-serif;
-
 }
 
 @keyframes marquee {
