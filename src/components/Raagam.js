@@ -27,7 +27,7 @@ export default function Raagam() {
                             </div>
                             <div className="flex flex-col gap-6 ">
                                 <div className="flex flex-col gap-2 justify-center items-center">
-                                        <Image src="/images/raagam.png" height={100} width={380} alt="raagam logo" className="h-full lg:w-[15%] w-[50%]" />
+                                        <Image src="/images/raagam.png" height={100} width={380} alt="raagam logo" className="h-full md:w-[20%] lg:w-[15%] w-[50%]" />
 
                                     <h2 className="font-bold text-3xl lg:text-4xl uppercase text-[#cfb781]">
                                     RAAGAM 2026

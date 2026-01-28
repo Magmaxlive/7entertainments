@@ -12,15 +12,15 @@ export default function Footer() {
           <div className="relative max-w-[1440px] mx-auto flex flex-col py-15 px-8">
                 
                 <div className="flex flex-col gap-15">
-            <div className="flex flex-col lg:flex-row gap-12 items-start justify-between ">
+            <div className="flex flex-col  lg:flex-row gap-12 items-start justify-between ">
                 <div className="flex flex-col gap-6 items-start flex-shrik-0">
                     <Image src='/images/logo.webp' className="h-15 lg:w-fit" height={160} width={100} alt="7 entertainment logo"/>
-                    <p className="lg:max-w-[350px] text-[#d3bc8d] text-pretty"> Seven Entertainment is a premium event management company in Auckland, New Zealand, specializing in live concerts, cultural events, and large-scale productions.</p>
+                    <p className="lg:max-w-[300px] text-[#d3bc8d] text-pretty"> Seven Entertainment is a premium event management company in Auckland, New Zealand, specializing in live concerts, cultural events, and large-scale productions.</p>
                 </div>
 
                 <div className="flex flex-col text-[#d3bc8d] gap-6">
                     <h1 className="lg:text-center font-semibold uppercase">quick links</h1>
-                    <div className="flex flex-col gap-4 items-start text-[#d3bc8d]">
+                    <div className="flex flex-col gap-4 items-center text-[#d3bc8d]">
         
                          <ul className="flex flex-col gap-3">
                                 <li><Link to='hero' offset={-100} smooth={true} duration={500} className='cursor-pointer text-[1rem] transition-all duration-300 uppercase font-semibold hover:text-white hover:underline underline-offset-8'>Home</Link></li>

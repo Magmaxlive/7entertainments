@@ -21,14 +21,14 @@ export default function HeroSection() {
               <h4 className="text-[#cfb781] tracking-wide uppercase font-semibold">
                   Seven Entertainment presents
               </h4>
-                <Image src="/images/raagam.png" height={100} width={380} alt="raagam logo" className="h-full lg:w-[30%] w-[40%]" />
-                <h1 className="lg:text-5xl text-2xl text-pretty font-bold text-white">
+                <Image src="/images/raagam.png" height={100} width={380} alt="raagam logo" className="h-full md:w-[20%] lg:w-[30%] w-[40%]" />
+                <h1 className="lg:text-5xl md:text-3xl text-2xl text-pretty font-bold text-white">
                 Naresh Iyer Live in Concert
               </h1>
-              <h2 className={`${engagement.className} font-bold tracking-widest lg:text-6xl text-5xl text-[#d3bc8d]`}>Raagam 2026</h2>
-              <div className="flex flex-col gap-3">
-                  <h6 className="lg:text-lg text-xs text-pretty  font-semibold mt-6 tracking-wider text-white">A magical Valentine's Day Musical evening in Auckland</h6>
-                  <p className="lg:text-base text-xs font-normal lg:tracking-wider tracking-tight text-white flex items-center">Live Orchestra <Dot/> Romantic Melodies <Dot/> One-night-Only Concert</p>
+              <h2 className={`${engagement.className} font-bold tracking-widest lg:text-6xl md:text-5xl text-4xl text-[#d3bc8d]`}>Raagam 2026</h2>
+              <div className="flex flex-col gap-4">
+                  <h6 className="lg:text-lg text-xs text-pretty md:text-lg md:tracking-wider font-semibold mt-6 tracking-tight text-white">A magical Valentine's Day Musical evening in Auckland</h6>
+                  <p className="lg:text-base text-[10px] md:text-lg font-normal lg:tracking-wider tracking-tight text-white flex items-center">Live Orchestra <Dot/> Romantic Melodies <Dot/> One-night-Only Concert</p>
               </div>
 
               <hr className="my-3 w-full opacity-25" />
