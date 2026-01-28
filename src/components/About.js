@@ -29,10 +29,10 @@ export default function About() {
 
                         <div className="text-white text-lg flex flex-col gap-3 ">
                             <p>
-                            We are a complete event management company dedicated to conducting world-class live events and music showcases across Australia, New Zealand, Canada, and the USA.
+                            We are a complete event management company dedicated to conducting world-class live events and music showcases across Australia, New Zealand, Canada and the USA.
                             </p>
                             <p>
-                                From concerts to corporate events, we blend strategy, creativity, and flawless execution to make every celebration extraordinary. With a commitment to quality and seamless execution, we endeavor to create events that inspire, connect, and entertain.
+                                From concerts to corporate events, we blend strategy, creativity and flawless execution to make every celebration extraordinary. With a commitment to quality and seamless execution, we endeavor to create events that inspire, connect, and entertain.
                             </p>
                         </div>
 

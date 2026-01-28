@@ -6,6 +6,7 @@ import ProductionSection from "@/components/ProductionSection";
 import Raagam from "@/components/Raagam";
 import Sponsors from "@/components/Sponsors";
 import Testimonials from "@/components/Testimonials";
+import WhatsApp from "@/components/Whatsapp";
 import WhyChoose from "@/components/WhyChoose";
 import Image from "next/image";
 
@@ -21,6 +22,7 @@ export default function Home() {
       <Testimonials/>
       <FeatureSection/>
       <Footer/>
+      <WhatsApp/>
     </>
   );
 }

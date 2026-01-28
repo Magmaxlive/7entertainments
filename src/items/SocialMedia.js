@@ -32,16 +32,16 @@ export const SocialLinks = [
 
 export const contactus = [
     {
-        content : '+64 9 123 4567',
+        content : '+64 22 384 4165',
         icon : <FaPhoneAlt size={25}/>,
-        link: 'tel:+6491234567'
+        link: 'tel:+64223844165'
     },
 
     
     {
         content : '+64 22 122 1154',
-        icon : <FaPhoneAlt size={25}/>,
-        link: 'https://wa.me/6491234567'
+        icon : <IoLogoWhatsapp size={25}/>,
+        link: 'https://wa.me/64221221154'
     },
 
 
@@ -53,7 +53,7 @@ export const contactus = [
 
     {
         content :  <>
-                    53 Stoddard Road, Wesley,<br/> Auckland 1041
+                153 Stoddard Road, Wesley,<br/> Auckland 1041
             </>,
         icon : <FaLocationDot size={25}/>,
         link:'https://www.google.com/maps/dir//360VR+STUDIO+LTD,+1A%2F153+Stoddard+Road,+Wesley,+Auckland+1041,+New+Zealand/@11.3344512,75.759616,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x6d0d41490462baf5:0x1dd1c99afd2a8e30!2m2!1d174.7265678!2d-36.9030576?entry=ttu&g_ep=EgoyMDI2MDEyMS4wIKXMDSoKLDEwMDc5MjA3M0gBUAM%3D'

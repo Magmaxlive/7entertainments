@@ -2,6 +2,7 @@ import { engagement } from "@/app/layout"
 import { CalendarDays,Clock9,MapPinCheck,Dot,Music,Armchair,Star,MicVocal,Check  } from 'lucide-react';
 import CountDown from "./CountDown";
 import { Herofeatures } from "@/items/HeroFeatures";
+import Image from "next/image";
 
 
 export default function HeroSection() {
@@ -15,20 +16,22 @@ export default function HeroSection() {
 
           {/* left column */}
 
-          <div className="flex flex-col gap-4 lg:justify-self-start justify-center">
+          <div className="flex flex-col gap-4 lg:justify-self-start lg:items-start items-center justify-center ">
+            
               <h4 className="text-[#cfb781] tracking-wide uppercase font-semibold">
                   Seven Entertainment presents
               </h4>
-              <h1 className="lg:text-5xl text-3xl font-bold text-white">
+                <Image src="/images/raagam_logo.png" height={100} width={380} alt="raagam logo" className="h-full lg:w-[30%] w-[40%]" />
+                <h1 className="lg:text-5xl text-2xl text-pretty font-bold text-white">
                 Naresh Iyer Live in Concert
               </h1>
               <h2 className={`${engagement.className} font-bold tracking-widest lg:text-6xl text-5xl text-[#d3bc8d]`}>Raagam 2026</h2>
               <div className="flex flex-col gap-3">
-                  <h6 className="lg:text-lg text-sm  font-semibold mt-6 tracking-wider text-white">A magical Valentine's Day Musical evening in Auckland</h6>
-                  <p className="lg:text-base text-xs font-normal tracking-wider text-white flex">Live Orchestra <Dot/> Romantic Melodies <Dot/> One-night-Only Concert</p>
+                  <h6 className="lg:text-lg text-xs text-pretty  font-semibold mt-6 tracking-wider text-white">A magical Valentine's Day Musical evening in Auckland</h6>
+                  <p className="lg:text-base text-xs font-normal lg:tracking-wider tracking-tight text-white flex items-center">Live Orchestra <Dot/> Romantic Melodies <Dot/> One-night-Only Concert</p>
               </div>
 
-              <hr className="my-3 opacity-25" />
+              <hr className="my-3 w-full opacity-25" />
 
               <div className="flex flex-col gap-4 text-lg">
                   <div className="flex-col flex lg:flex-row gap-4 lg:gap-6">
@@ -41,7 +44,7 @@ export default function HeroSection() {
                   </div>
 
                   <div className="flex gap-3 items-start  text-[#e2e0db]">
-                          <MapPinCheck /> <p className="font-semibold tracking-wider">Due Drop Events Centre, Manukau City, Auckland</p>
+                          <MapPinCheck /> <a href="https://www.google.com/maps/dir//Due+Drop+Events+Centre,+770+Great+South+Road,+Wiri,+Manukau+2104/" target="_blank" className="font-semibold tracking-wider">Due Drop Events Centre, Manukau City, Auckland</a>
                   </div>
 
                   <div className="mt-8 flex flex-col text-center gap-3">

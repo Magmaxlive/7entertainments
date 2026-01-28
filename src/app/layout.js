@@ -32,8 +32,8 @@ const roboto = Roboto({
 
 
 export const metadata = {
-  title: "7 entertainment",
-  description: "Redefining Live Entertainment In New Zealand",
+  title: "Seven Entertainment Auckland | Raagam – Naresh Iyer Live",
+  description: "Experience Raagam 2026 – a Valentine’s Day live concert by Naresh Iyer in Auckland. Book tickets now. Presented by Seven Entertainment NZ.",
 };
 
 export default function RootLayout({ children }) {

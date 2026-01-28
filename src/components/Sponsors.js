@@ -26,7 +26,7 @@ export default function Sponsors() {
                                             <Image
                                             src={i.image}
                                             fill
-                                            alt={i.Name}
+                                            alt={`${i.Name} logo`}
                                             className="object-cover"
                                             />
                                         </div>
@@ -43,7 +43,7 @@ export default function Sponsors() {
                                             <Image
                                             src={i.image}
                                             fill
-                                            alt={i.Name}
+                                            alt={`${i.Name} logo`}
                                             className="object-contain"
                                             />
                                         </div>
@@ -64,7 +64,7 @@ export default function Sponsors() {
                                             <Image
                                             src={i.image}
                                             fill
-                                            alt={i.Name}
+                                            alt={`${i.Name} logo`}
                                             className="object-contain"
                                             />
                                         </div>
@@ -84,7 +84,7 @@ export default function Sponsors() {
                                             <Image
                                             src={i.image}
                                             fill
-                                            alt={i.Name}
+                                            alt={`${i.Name} logo`}
                                                 className={i.class? i.class : 'object-cover'}
                                             />
                                         </div>

@@ -3,7 +3,7 @@
 import { useEffect, useState } from "react";
 
 export default function CountDown() {
-  const targetDate = new Date("2026-02-14T00:00:00");
+  const targetDate = new Date("2026-02-14T00:00:00+13:00");
 
   const calculateTimeLeft = () => {
     const now = new Date();
@@ -36,6 +36,7 @@ export default function CountDown() {
       <TimeBox label="Days" value={timeLeft.days} />
       <TimeBox label="Hours" value={timeLeft.hours} />
       <TimeBox label="Minutes" value={timeLeft.minutes} />
+      <TimeBox label="Seconds" value={timeLeft.seconds} />
     </div>
   );
 }

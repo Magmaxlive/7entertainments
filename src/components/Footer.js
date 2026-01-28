@@ -11,9 +11,11 @@ export default function Footer() {
             <div className="absolute inset-0 bg-black/85"></div>
           <div className="relative max-w-[1440px] mx-auto flex flex-col py-15 px-8">
                 
+                <div className="flex flex-col gap-15">
             <div className="flex flex-col lg:flex-row gap-12 items-start justify-between ">
-                <div className="flex items-center flex-shrik-0">
-                    <Image src='/images/logo.webp' className="h-15 lg:w-full" height={160} width={100} alt="logo"/>
+                <div className="flex flex-col gap-6 items-start flex-shrik-0">
+                    <Image src='/images/logo.webp' className="h-15 lg:w-fit" height={160} width={100} alt="7 entertainment logo"/>
+                    <p className="lg:max-w-[350px] text-[#d3bc8d] text-pretty"> Seven Entertainment is a premium event management company in Auckland, New Zealand, specializing in live concerts, cultural events, and large-scale productions.</p>
                 </div>
 
                 <div className="flex flex-col text-[#d3bc8d] gap-6">
@@ -54,6 +56,13 @@ export default function Footer() {
                 </div>
 
                 
+
+                
+            </div>
+                <div className="text-center flex flex-col gap-4 text-[#d3bc8d]">
+                    <hr />
+                    <h6>© 2026 Seven Entertainment. All Rights Reserved</h6>
+                </div>
             </div>
                 
                 
