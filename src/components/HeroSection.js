@@ -21,7 +21,7 @@ export default function HeroSection() {
               <h4 className="text-[#cfb781] tracking-wide uppercase font-semibold">
                   Seven Entertainment presents
               </h4>
-                <Image src="/images/raagam_logo.png" height={100} width={380} alt="raagam logo" className="h-full lg:w-[30%] w-[40%]" />
+                <Image src="/images/raagam.png" height={100} width={380} alt="raagam logo" className="h-full lg:w-[30%] w-[40%]" />
                 <h1 className="lg:text-5xl text-2xl text-pretty font-bold text-white">
                 Naresh Iyer Live in Concert
               </h1>
