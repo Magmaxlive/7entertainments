@@ -39,9 +39,9 @@ export const contactus = [
 
     
     {
-        content : '+64 22 122 1154',
+        content : '+64 22 163 7881',
         icon : <IoLogoWhatsapp size={25}/>,
-        link: 'https://wa.me/64221221154'
+        link: 'https://wa.me/+64221637881'
     },
 
 
