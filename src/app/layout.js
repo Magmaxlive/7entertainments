@@ -66,7 +66,7 @@ export default function RootLayout({ children }) {
       <body className={`${archivo.variable} antialiased`}>
         
           <noscript>
-            <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K32G2W58" height="0" width="0" style="display:none;visibility:hidden" />
+            <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K32G2W58" height="0" width="0" style={{display:"none",visibility:"hidden"}} />
           </noscript>
 
           <Navbar/>
