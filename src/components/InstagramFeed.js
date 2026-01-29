@@ -24,7 +24,7 @@ export default function InstagramFeed({ url }) {
       <blockquote className="instagram-media bg-black w-full"
         data-instgrm-permalink={url}
         data-instgrm-version="14"
-        style={{ minWidth: "100%",borderRadius:"50px" }}> </blockquote>
+        style={{ minWidth: "100%" }}> </blockquote>
 
       <Script src="https://www.instagram.com/embed.js"
         strategy="afterInteractive"/>
