@@ -2,6 +2,8 @@ import About from "@/components/About";
 import FeatureSection from "@/components/FeatureSection";
 import Footer from "@/components/Footer";
 import HeroSection from "@/components/HeroSection";
+import InstagramFeed from "@/components/InstagramFeed";
+import InstagramGrid from "@/components/InstagramGrid";
 import ProductionSection from "@/components/ProductionSection";
 import Raagam from "@/components/Raagam";
 import Sponsors from "@/components/Sponsors";
@@ -20,6 +22,7 @@ export default function Home() {
       <Raagam/>
       <Sponsors/>
       <Testimonials/>
+      <InstagramGrid/>
       <FeatureSection/>
       <Footer/>
       <WhatsApp/>

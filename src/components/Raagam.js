@@ -63,12 +63,12 @@ export default function Raagam() {
                                                 {singers.map((i,index)=>
                                                 (
                                                     <div key={index} className="flex flex-col w-full gap-4 items-center text-white justify-start backdrop-blur-xl bg-white/5 py-6  px-5 rounded-lg  justify-center transition-transform duration-300 ease-out hover:scale-105">
-                                                        <div className="relative w-full h-[350px] rounded-lg overflow-hidden">
+                                                        <div className="relative w-full lg:h-[350px] h-[400px] rounded-lg overflow-hidden">
                                                             <Image
                                                             src={i.image}
                                                             alt={`${i.name} image`}
                                                             fill
-                                                            className="object-cover object-center"
+                                                            className= {i.class? i.class : 'object-cover object-center'}
                                                             />
                                                         </div>
                                                         

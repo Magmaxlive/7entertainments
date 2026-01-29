@@ -3,7 +3,7 @@ export const singers = [
     {
         name : 'Naresh Iyer',
         description : 'National Award-winning playback singer with 2000+ songs, including the iconic ‘Roobaroo’ from Rang De Basanti.',
-        image:'/images/naresh.jpg'
+        image:'/images/naresh_iyer.jpg',
     },
     {
         name : 'Samanwitha Prashanth',
