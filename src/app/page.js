@@ -22,7 +22,7 @@ export default function Home() {
       <Raagam/>
       <Sponsors/>
       <Testimonials/>
-      <InstagramGrid/>
+      
       <FeatureSection/>
       <Footer/>
       <WhatsApp/>

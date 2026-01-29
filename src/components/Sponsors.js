@@ -5,7 +5,7 @@ import Image from "next/image"
 export default function Sponsors() {
   return (
     <div id="sponsors" className="py-24 px-8 bg-gradient-to-tl from-black via-pink-900 to-black">
-            <div className="flex flex-col gap-10 max-w-[1440px] mx-auto justify-center items-center">
+            <div className="flex flex-col gap-15 max-w-[1440px] mx-auto justify-center items-center">
                 <div className="flex flex-col justify-center gap-6 items-center">
                     <h2 className="font-bold text-2xl lg:text-3xl text-center uppercase text-[#cfb781]">
                         VISIONARY SPONSORS OF RAAGAM

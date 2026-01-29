@@ -4,7 +4,7 @@ import BookingBtn from "./BookingBtn"
 export default function FeatureSection() {
   return (
     <div id="whychooseus" className="py-24 px-8 bg-gradient-to-tl from-pink-900 to-black">
-            <div className="flex flex-col gap-10 max-w-[1440px] mx-auto justify-center items-center">
+            <div className="flex flex-col gap-15 max-w-[1440px] mx-auto justify-center items-center">
                 <div className="flex flex-col justify-center gap-6 items-center">
                     <h2 className="font-bold text-2xl lg:text-3xl uppercase text-center text-[#cfb781]">
                         EXPERIENCE THE EXTRAORDINARY

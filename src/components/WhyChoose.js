@@ -9,7 +9,7 @@ export default function WhyChoose() {
                     Why Choose Us
                 </h2>
 
-                <h5 className="tracking-wider text-pretty text-white">
+                <h5 className="tracking-wider text-pretty text-white text-center">
                     We transform every event into an unforgettable experience with creativity, precision, and world-class execution.
                 </h5>
             </div>
