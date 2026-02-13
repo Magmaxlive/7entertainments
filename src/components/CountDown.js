@@ -3,11 +3,7 @@
 import { useEffect, useState } from "react";
 
 export default function CountDown() {
-  const targetDate = new Date(
-  new Date("2026-02-14T19:00:00").toLocaleString("en-US", {
-    timeZone: "Pacific/Auckland",
-  })
-);
+  const targetDate = new Date("2026-02-14T19:00:00+13:00");
 
   const [timeLeft, setTimeLeft] = useState({
     days: 0,
